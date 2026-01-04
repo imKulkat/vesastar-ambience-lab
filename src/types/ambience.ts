@@ -64,9 +64,10 @@ export interface Scene {
   id: string;
   name: string;
   description: string;
-  trackStates: TrackState[];
-  theme: ThemeName;
-  backgroundUrl?: string;
+  backgroundUrl: string;
+  backgroundColor: string;
+  accentColor: string;
+  textColor: string;
   createdBy: string;
   createdAt: Date;
 }
